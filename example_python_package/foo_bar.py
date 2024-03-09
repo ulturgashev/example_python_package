@@ -1,7 +1,11 @@
+from jinja2 import Template
 
 
 def foo():
-    return 'foo'
+    template = Template('Hello {{ name }}!')
+    return template.render(name='foo')
+
 
 def bar():
-    return 'bar'
+    template = Template('Hello {{ name }}!')
+    return template.render(name='bar')

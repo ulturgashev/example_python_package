@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="example_python_package_ulturgashev",
-    version="0.0.1",
+    version="0.0.2",
     author="ulturgashev",
     author_email="ulturgashevvv@gmail.com",
     description="Example python package",
